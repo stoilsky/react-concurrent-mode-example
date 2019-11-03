@@ -1,0 +1,24 @@
+.App {
+  color: #36454F;
+  text-align: center;
+  font-family: "sans-serif";
+}
+
+.Container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, 120px);
+  grid-gap: 30px;
+  padding: 0 120px;
+}
+
+.Filters {
+  justify-content: center;
+  padding: 30px;
+}
+
+.Post {
+  border: thin #60992D solid;
+  padding: 12px;
+  border-radius: 4px;
+}
